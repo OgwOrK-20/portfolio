@@ -6,7 +6,7 @@ export default function Home() {
     <React.Fragment>
       <header>
         <div className="header-img">
-          <img src="/img/header-img.jpeg" alt="header-image" />
+          <img src="/img/header-img.png" alt="header-image" />
         </div>
         <div className="intro">
           <h1 className="home-title"> Oliver Gee</h1>
