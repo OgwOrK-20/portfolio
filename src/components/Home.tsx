@@ -9,13 +9,13 @@ export default function Home() {
           <img src="/img/header-img.jpeg" alt="header-image" />
         </div>
         <div className="intro">
-          <h1 className="home-title">Oliver Gee</h1>
+          <h1 className="home-title"> Oliver Gee</h1>
           <h2 className="home-intro"> a web developer</h2>
         </div>
       </header>
       <main>
         <div className="profile">
-          <h1>Eating. Drinking. Coding. & Always learning</h1>
+          <h1>Eating. Drinking. Coding. & Always Learning</h1>
           <a href="/about" className="link">
             Learn more
           </a>
