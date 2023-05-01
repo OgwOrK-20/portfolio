@@ -7,7 +7,7 @@ export default function About() {
     <React.Fragment>
       <header>
         <div className="header-img">
-          <img src="./img/header-img.jpeg" alt="header-image" />
+          <img src="/img/header-img.png" alt="header-image" />
         </div>
         <div className="intro">
           <h1 className="about-title">hi, this is Oliver!</h1>
