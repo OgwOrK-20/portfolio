@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
+  const [hover, setHover] = useState(false);
   return (
     <div>
       {" "}
@@ -29,12 +30,19 @@ export default function Footer() {
               <a
                 href="https://www.linkedin.com/in/olivergee-/"
                 className="outside-link"
+                onMouseOver={() => setHover(true)}
+                onMouseOut={() => setHover(false)}
               >
-                <i className="fa-brands fa-linkedin-in"></i>
+                <i className={"fa-brands fa-linkedin-in"}></i>
               </a>
             </div>
             <div className="social-media-item">
-              <a href="https://github.com/OgwOrK-20" className="outside-link">
+              <a
+                href="https://github.com/OgwOrK-20"
+                className="outside-link"
+                onMouseOver={() => setHover(true)}
+                onMouseOut={() => setHover(false)}
+              >
                 <i className="fa-brands fa-github"></i>
               </a>
             </div>
@@ -42,6 +50,8 @@ export default function Footer() {
               <a
                 href="https://www.instagram.com/olivergee2021/"
                 className="outside-link"
+                onMouseOver={() => setHover(true)}
+                onMouseOut={() => setHover(false)}
               >
                 <i className="fa-brands fa-instagram"></i>
               </a>
@@ -50,6 +60,8 @@ export default function Footer() {
               <a
                 href="https://www.facebook.com/profile.php?id=100071502531629"
                 className="outside-link"
+                onMouseOver={() => setHover(true)}
+                onMouseOut={() => setHover(false)}
               >
                 <i className="fa-brands fa-square-facebook"></i>
               </a>
