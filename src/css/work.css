@@ -1,0 +1,28 @@
+.coming-soon {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0 5rem;
+  align-items: center;
+}
+.coming-wrapper {
+  width: 50vw;
+}
+.coming-soon-post {
+  width: 50vw;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 400;
+  font-family: "Cormorant SC", serif;
+}
+
+@media (max-width: 600px) {
+  .coming-soon {
+    flex-direction: column;
+  }
+  .coming-wrapper {
+    width: 100vw;
+  }
+  .coming-soon-post {
+    font-size: 4rem;
+  }
+}

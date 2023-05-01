@@ -1,0 +1,151 @@
+/* header */
+
+@keyframes enter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  animation: enter 900ms 1 ease-in;
+}
+
+.header-img {
+  width: 50%;
+}
+header img {
+  width: 100%;
+}
+
+.intro {
+  width: 50%;
+}
+.intro h1 {
+  width: fit-content;
+}
+
+.intro h2 {
+  width: fit-content;
+}
+
+.home-title {
+  font-size: 60px;
+  font-weight: 400;
+  font-family: "Cormorant SC", serif;
+  position: relative;
+  right: 3%;
+  top: 30%;
+}
+
+.home-intro {
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Ibarra Real Nova", serif;
+  position: relative;
+  top: 27%;
+  left: 15%;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+  .header-img {
+    width: 100%;
+  }
+  .intro {
+    width: 100%;
+  }
+  .home-title {
+    position: static;
+    margin: 30px auto 10px;
+  }
+
+  .home-intro {
+    position: static;
+    margin: 10px auto;
+  }
+}
+
+/* main */
+
+.profile {
+  margin: 8rem auto;
+  width: 70%;
+  text-align: center;
+}
+
+.profile h1 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Cormorant SC", serif;
+}
+
+.profile a {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+.project-list {
+  display: grid;
+  width: 75%;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 10px 10px;
+  margin: 2rem auto;
+}
+.project h3 {
+  width: fit-content;
+  margin: 1rem auto;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Cormorant SC", serif;
+}
+.project-item {
+  cursor: pointer;
+  transition: transform 200ms ease;
+}
+.project-item:hover {
+  transform: scale(0.95);
+}
+
+.welcome {
+  /* background-color: #edede9; */
+  padding: 3rem 2rem;
+}
+
+.welcome h1 {
+  width: fit-content;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Cormorant SC", serif;
+  margin: 0 auto;
+}
+
+.welcome a h3 {
+  width: fit-content;
+  font-family: "Ibarra Real Nova", serif;
+  margin: 1rem auto 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.project a {
+  font-family: "Ibarra Real Nova", serif;
+  width: fit-content;
+  margin: 2.5rem auto;
+  display: block;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+  .project-list {
+    display: block;
+  }
+  .project-item {
+    margin: 2rem auto;
+  }
+}

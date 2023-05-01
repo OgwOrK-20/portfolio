@@ -1,0 +1,110 @@
+.about-title {
+  font-family: "Cormorant", serif;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  font-style: normal;
+}
+
+.about-intro {
+  width: 70% !important;
+  margin-left: 90px;
+  padding: 5px;
+  font-size: 1rem;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+}
+
+.education {
+  margin: 3rem auto;
+  padding: 4rem 0;
+  background-color: #edede9;
+}
+
+.edu-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+
+.edu-img {
+  width: 15%;
+}
+
+.uni-container {
+  margin: auto 0;
+}
+
+.uni-container h1 {
+  font-family: "Cormorant", serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.uni-container h2 {
+  margin-left: 2rem;
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.uni-container h3 {
+  margin-left: 20rem;
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.uni-container .seu-info {
+  margin-left: 8.5rem;
+}
+
+@media (max-width: 600px) {
+  .edu-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .edu-img {
+    width: 60%;
+  }
+  .uni-container:nth-child(1) {
+    order: 2;
+  }
+  .uni-container {
+    text-align: center;
+  }
+
+  .uni-container h3 {
+    margin: 1rem 0;
+  }
+  .uni-container .seu-info {
+    margin: 1rem 0;
+  }
+  .skills {
+    columns: 2 !important;
+  }
+}
+
+/* skills */
+.skills-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+.skills-wrapper h1 {
+  margin-left: 2.5rem;
+  font-family: "Cormorant", serif;
+  font-size: 3rem;
+  font-weight: 400;
+}
+.skills {
+  columns: 4;
+}
+.skills li {
+  list-style: none;
+  margin-bottom: 1rem;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+}
