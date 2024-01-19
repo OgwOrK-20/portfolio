@@ -39,7 +39,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <a href="/about" className="link">
+          <a href="/work" className="link">
             View all my work
           </a>
         </div>

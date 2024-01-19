@@ -15,11 +15,14 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import ScrollToTop from "./scrollToTop";
 
 function App() {
   return (
     <React.Fragment>
       <NavBar />
+      <ScrollToTop />
+      {/* <BrowserRouter> */}/{" "}
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="home" element={<Home />}></Route>
@@ -27,6 +30,7 @@ function App() {
         <Route path="contact" element={<Contact />}></Route>
         <Route path="about" element={<About />}></Route>
       </Routes>
+      {/* </BrowserRouter> */}
       <Footer></Footer>
     </React.Fragment>
   );

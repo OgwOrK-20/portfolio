@@ -50,7 +50,7 @@ export default function About() {
               <h2 className="edu-time">
                 Memorial University of Newfoundland —— Canada
               </h2>
-              <h3>2021 ——— present</h3>
+              <h3>2021 ——— 2023</h3>
             </div>
             <div className="edu-img mun-img">
               <img src="/img/mun.png" alt="" />
